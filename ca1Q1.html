@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>CA1</title>
+    <style>
+      section{
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 5px;
+      }
+      fieldset{
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center">Feedback Form</h1>
+    <div class="container mt-5" >
+    <form action="feed.php" method="post">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" placeholder="Enter Your Name" required name="name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="text" class="form-control" placeholder="Enter Your Email" required name="email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Select Your Cousre: </label>
+    <select name="cousre" required>
+      <option >Select</option>
+      <option name="cousre" value="MCA">MCA</option>
+      <option name="cousre" value="BCA">BCA</option>
+      <option name="cousre" value="Btech">Btech</option>
+      <option name="cousre" value="Mtech">Mtech</option>
+      <option name="cousre" value="MSc">MSc</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Rating</label><br>
+    <div style="display: flex; justify-content: space-around;">
+    <input type="radio" value="1" name="rating">
+    <input type="radio" value="2" name="rating">
+    <input type="radio" value="3" name="rating">
+    <input type="radio" value="4" name="rating">
+    <input type="radio" value="5" name="rating">
+  </div>
+  </div>
+  <div>
+  <label>Comments</label><br>
+  <textarea style="width: 300px; height: 100px;" name="comments" required ></textarea>
+  </div><br>
+  <div>
+  <button type="submit" class="btn btn-primary w-100">Submit</button>
+</div>
+</div>
+</form>
+    </div>
+    </body>
+</html>
+</div>
+</form>
+    </div>
+    </body>
+</html>
