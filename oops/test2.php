@@ -21,4 +21,3 @@
 
     $user->setdata("Jenin", "23", "jein@gmail.com");
     echo $user->getdata();
-?>

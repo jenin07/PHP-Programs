@@ -26,5 +26,3 @@ class b extends a{
 
 $obj = new b("Joel", 25);
 $obj->show();
-
-?>
